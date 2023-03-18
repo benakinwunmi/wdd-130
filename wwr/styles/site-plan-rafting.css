@@ -1,15 +1,11 @@
-
-
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Tilt+Neon&display=swap');
-
 :root {
   --primary-color: #0a5c15;
   --secondary-color: #883606;
   --accent1-color: #f6e6b7;
   --accent2-color: #ff7c0a;
 
-  --heading-font: 'Josefin+Sans', serif;
-  --paragraph-font: 'ilt+Neon', serif;
+  --heading-font: 'Kalam', sans-serif;
+  --paragraph-font: 'Figtree', cursive;
 
   --nav-background-color: #ff7c0a;
   --nav-link-color: #ff7c0a;
