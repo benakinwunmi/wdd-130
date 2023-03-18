@@ -30,6 +30,7 @@ nav {
   }
   h1 {
     color: steelblue;
+    border-bottom:steelblue ;
   }
   img {
     width: 150px;
