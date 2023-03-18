@@ -29,7 +29,9 @@ body {
 .herodiv img {
     position: absolute;
 }
-h1{ position: absolute;}
+h1{ position: absolute;
+font-size: 25px;
+font-family: var(--heading-font);}
 article{
     background-color: #b1cee7;
     position: absolute;
@@ -42,3 +44,4 @@ article{
 article img{
     float: right;
 }
+p {font-family:var(--heading-font);}
