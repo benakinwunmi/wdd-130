@@ -1,5 +1,9 @@
 
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .grid {
   display: grid;
   align-items: center;
@@ -39,11 +43,6 @@ nav {
   }
 aside {
     width: 20em;
-    margin: 1em;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 1em;
-    background-color: #eee;
-    color: #333;
     text-align: center;
     position: relative;
     grid-column: 1/2;
@@ -66,24 +65,22 @@ footer {
     max-width: 840px;
     margin: 0 auto;
   }
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  .box {
-    margin: 1rem;
-    border: 1px solid rgba(0,0,0,.1);
-    padding: 1rem;
-    background-color: #ddd;
-    color: #000;
-  }
+
   aside h2 {
     position: absolute;
-    top: 30px;
+    top: 47px;
     left: 150px;
   }
   header {
     max-width: 840px;
     margin: 0 auto;
   }
+/* Class Selectors*/
+
+.box {
+  margin: 1rem;
+  border: 1px solid rgba(0,0,0,.1);
+  padding: 1rem;
+  background-color: #ddd;
+  color: #000;
+}
