@@ -1,0 +1,36 @@
+form{
+    background-color: aquamarine;
+    padding: 20px;
+    margin: auto;
+    max-width: 600px;
+    border-radius: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    color: blue;
+}
+h1, h2 {
+    text-align: center;
+}
+input[type="text"], input[type="checkbox"], input[type="number"] {
+    margin-left: 200px; 
+}
+textarea{
+margin-left: 150px;
+}
+select {
+    margin-left: 130px;
+}
+input[type="submit"] {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border: none;
+    background-color: blueviolet;
+    color: rgb(14, 14, 10);
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+background-color: aqua;
+}
