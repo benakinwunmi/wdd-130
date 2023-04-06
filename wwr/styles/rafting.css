@@ -308,6 +308,9 @@ button {
 button:hover {
   background-color: #3e8e41;
 }
+.trip h1 {
+  text-align: center;
+}
 .trip-table {
   width: 100%;
   border-collapse: collapse;
