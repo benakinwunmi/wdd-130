@@ -28,7 +28,7 @@ nav {
     box-shadow: 0px 0px 10px var(--secondary-color);
     margin: 0;
     padding: 1rem 0;
-    border-radius: var(--nav-background-color);
+    border-radius:10px 5px 20px 15px ;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -85,7 +85,7 @@ background-color: rgba(246, 230, 183, 0.5);}
 }
     .container figure {
     display: flex;
-    flex-direction: horizontal;
+    flex-direction:row;
     justify-content: space-around;
     color:#b1cee7;
    
@@ -137,13 +137,17 @@ footer p{
 .image-container figcaption {font-family:var(--paragraph-font);
     color:#883606;
     font-size: 2rem;}  
-h1,h2{color:#b1cee7;
+h1,h2 {
+  color:#b1cee7;
     font-family: var(--heading-font);
     font-size: 3rem;
-    margin: 0 auto;}
-    p{font-family:var(--paragraph-font);
+    margin: 0 auto;
+  }
+    p {
+      font-family:var(--paragraph-font);
         color:#883606;
-        font-size: 2rem;}
+        font-size: 2rem;
+      }
         .map{
             text-align: center;
             display: flex;
